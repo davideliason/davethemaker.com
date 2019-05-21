@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: David Eliason
+subtitle: Coder, Maker, IoT Artist
+description: web development, cloud architecture, project management
 keywords:
-author: John Doe
-language:
+author: David Eliason
+language: en
 timezone:
 
 # URL

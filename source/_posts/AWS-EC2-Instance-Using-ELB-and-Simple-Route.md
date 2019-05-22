@@ -3,7 +3,10 @@ title: AWS EC2 Instance Using ELB and Simple Route
 date: 2018-07-28 17:03:27 -0700
 category: 
 - AWS_Architecture
-tags: AWS Resources
+tags: 
+- AWS Resources
+- EC2
+- ELB
 ---
 
 Lately I've been exploring moving my MERN applications up into the cloud using the AWS platform, and I thought I'd share how I configured setting up an EC2 instance using an Elastic Load Balancer. Hopefully it's useful!

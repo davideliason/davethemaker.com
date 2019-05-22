@@ -3,7 +3,11 @@ title: AWS EC2 instance using SSH Blink and nginx reverse proxy server
 date: 2018-08-02 17:03:27 -0700
 category: 
 - AWS_Architecture
-tags: AWS Resources
+tags: 
+- AWS Resources
+- EC2
+- Nginx
+- SSH
 ---
 
 {% asset_img 8218-VPC-EC2-Post.png Intro. %}

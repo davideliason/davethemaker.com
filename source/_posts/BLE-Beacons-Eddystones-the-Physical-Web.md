@@ -3,7 +3,8 @@ title: 'BLE Beacons, Eddystones, & the Physical Web'
 date: 2018-06-25 17:03:27 -0700
 category: 
 - IoT
-tags: IoT
+tags:
+- BLE Beacon
 ---
 
 As part of my art sculpture I'm exploring the use of beacons, so thought I'd share some of what I've learned here. 

@@ -3,10 +3,13 @@ title: Creating a VPC With a Single Public-Facing EC2 Instance
 date: 2018-08-01 17:03:27 -0700
 category:
 - backend
-tags: AWS Resources
+tags: 
+- AWS Resources
+- VPC
+- EC2
 ---
 
-I wanted to share how I successfully created an EC2 instance within a VPC instance, using a custom route table and connected to an internet gateway. I find working with the cloud to be super interesting, but there's a lot of moving parts, and I thought it'd be helpful to share this successful step with other interested parties.
+I wanted to share how I successfully created an **EC2 instance** within a **VPC** instance, using a **custom route table** and connected to an **internet gateway**. I find working with the cloud to be super interesting, but there's a lot of moving parts, and I thought it'd be helpful to share this successful step with other interested parties.
 
 So the goal was multifold: to create a VPC, a NACL, a route table, an internet gateway, a subnet, and a security group. Also, to spin up an EC2 instance within one of two subnets, the one which is public facing and internet accessible.
 
@@ -16,7 +19,7 @@ Here's the result of this blog's efforts:
 {% asset_img WedsVPC.png VPC Diagram. %}
 
 
-The first thing that needs to be done is to create a VPC. Now, I'm assuming that you already have a AWS free-tier account that you can access. Within the VPC Services, you can create a VPC by using a descriptive name tag, and selecting an IPv4 CIDR block. 
+The first thing that needs to be done is to create a **VPC**. Now, I'm assuming that you already have a AWS free-tier account that you can access. Within the VPC Services, you can create a VPC by using a descriptive name tag, and selecting an **IPv4 CIDR block**. 
 
 The IPv4 CIDR block is basically an IP range that you'll have available to you within your VPC. So what's a VPC? It's like your own virtual private cloud, your own data center. So what we're working on is configuring the network within our own little VPC world :) Just to have more options, I also selected Amazon providing a IPv6 CIDR block as well. And that's it for creating a VPC! Amazon does some behind-the-scenes work, by creating a default route table, network ACL, and security group as defaults.
 

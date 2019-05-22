@@ -3,7 +3,11 @@ title: BSG Enigma - an IoT Art Sculpture for SOAK (2018)
 date: 2018-05-28 17:03:27 -0700
 category: 
 - Art_Installation
-tags: IoT
+tags: 
+- IoT
+- Arduino
+- Raspberry Pi
+- Electronics
 ---
 
 Tweaking my art sculpture's neoPixels and ultrasonic sensor at a McDonald's booth, shamelessly enjoying free coffee refills, I earned a few sidelong glances (aka "what the heck?!") as I got ready to present 'BSG Enigma' at the [SOAK event](http://soakpdx.com/) this weekend. 

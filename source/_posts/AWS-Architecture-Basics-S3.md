@@ -1,5 +1,5 @@
 ---
-title: 'AWS Architecture: A Brief Review'
+title: 'AWS Architecture: Basics & S3'
 date: 2019-05-22 07:38:21
 tags:
 - AWS
@@ -46,3 +46,29 @@ To access AWS Platform, you can use CLI, SDK software kit, or online management 
 
 ## S3 and Glacier Storage
 **S3** are secure, durable, highly-scalable, *object storage* with simple web interface good for backup, media and software storage and distribution, big data analytics, cloud-native mobile and web app hosting, websites.  Different storage classes. Rich set of permission, acccess controls, and encryption options. It is *object storage* which differs from block storage and file storage, both of which are accessed using protocols specific, closely associated with server and OS. *S3* is diffent, it is independent of server and is accessed via the web using API and HTTP verbs. S3 use *buckets*, and its simplicity has benefits such as its being unlimited in data, plus objects are automatically replicated in multiple facilities within a region (robust!), also very scalable. The bucket is created in a specific region but namespace is global so must be unique. Every object has a *key* which is unique, and has an *object URL* which makes it web accessible. CRUD and list. REST interface (CRUD). Very durable and available. *Eventually consistent data*, because of replication it might take some time to read after an update. 
+
+S3 is integrated with many other AWS cloud services: IAM, KMS, EC2, EBS, EMR, Database, SQS, Lambda, Cloudfront.
+
+*Access control* : S3 is secure and locked-down by default. You can control access via Access Control List (ACL), bucket policies, IAM policies, and query-string authentication. *bucket policies* are recommended because they provide much finer-grained control.
+
+*Static website hosting* is very common, you can't have server-side processing but they can be dynamic using client-side scripts such as JS. 
+
+*Different Storage Classes* : Standard, Standard-IA infrequent access, Reduced Redundancy Storage (RRS), Glacier for long-term archival.
+
+*Object Lifecycle Management* where you shift to different storage classes.
+
+*Encryption* : server-side (AWS-Managed, AWS KMS Keys, Customer-Provided Keys), client-side.
+
+*Versioning* if you want it, but steps up storage costs.
+
+*MFA Delete* requires additional authentication before big action
+
+*Pre-Signed URLs* means the owner can share object with others via time-limited permission.
+
+*Multipart Upload* for uploading or copying large objects.
+
+*Cross-Region Replication* async replication from one region to target bucket in another region.
+
+*Logging* to track request, gives all sorts of info
+
+*Event notifications* can be sent in response to objects uiploaded or stored in S3 --> run workflows, send alerts, perform other actions.

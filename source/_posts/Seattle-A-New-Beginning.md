@@ -2,7 +2,7 @@
 title: 'Seattle: A New Beginning'
 date: 2019-05-01 17:00:28
 category: 
-- Reflection
+- Personal
 tags:
 - Personal
 - Goals

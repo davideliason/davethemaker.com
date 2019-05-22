@@ -3,6 +3,7 @@ title: First Glaciated Summit
 date: 2017-05-21 13:38:46
 tags:
 - mountaineering
+- adventure
 ---
 
 I completed the BCEP mountaineering course as taught by the Mazamas club in Portland, OR back in 2015, and was that ever a great course! But, I didn't climb at all last year, and so this year I was bound and determined to get some gravel under my boots! 

@@ -1,6 +1,8 @@
 ---
 title: Motorcycle Diaries
 date: 2008-05-21 13:46:37
+category:
+- adventure
 tags:
 - motorcycle
 - Utah

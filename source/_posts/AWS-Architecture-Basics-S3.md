@@ -1,9 +1,11 @@
 ---
 title: 'AWS Architecture: Basics & S3'
 date: 2019-05-22 07:38:21
+category: 
+- AWS_Architecture
 tags:
 - AWS
-- Architect
+- S3
 ---
 
 It's been a few months since I took (and passed) the AWS Certified Solutions Architect, so to dust off any cobwebs i'm reviewing the offical study guide for that exam and I'm going to jot down my notes here. That'll serve as a convenenient reminder for me, and hopefully a helpful resource for anyone else undertakin a similar effort. Here we go!

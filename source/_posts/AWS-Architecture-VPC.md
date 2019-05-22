@@ -37,9 +37,11 @@ An **endpoint** allows you to create a private connection b/w VPC and another se
 **Peering** is a networking connection between two VPCs so they can communicate.
 A **security group** is a virtual firewall that controls in/outbound traffic to AWS resources and EC2 instance.
 **Network Access Control Lists(ACLs)** is another security layer acting as stateless firewall on *subnet level*.
-**NAT Instance/Gateway** allow an instance in a private subnet within the VPC to communicate with the internet. The gateway is rec'd over instance b/c easier, better availability, higher bandwidth.
+**NAT Instance/Gateway** allow an instance in a private subnet within the VPC to communicate with the internet, but only for initiating outbound traffic. So it would prevent receiving any inbound traffic initiated by someone on the Internet. The gateway is rec'd over instance b/c easier, better availability, higher bandwidth.
+
+The *difference between security group and NACL* is that **security group** is at the instance level, you can have multiple instances in mulitple subnets that are memebers of the same security groups.  They are stateful (return traffic is auto allowed). A **NACL** is on a subnet level, stateless - you have to allow both in/outbound traffic.
 
 
 
-
+See here for an example of a VPC being set up and used:
 {% post_link AWS-EC2-Instance-Using-ELB-and-Simple-Route %}

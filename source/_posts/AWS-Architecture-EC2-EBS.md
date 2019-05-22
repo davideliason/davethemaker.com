@@ -9,6 +9,20 @@ tags:
 - EBS
 ---
 
+I. Basics
+II. S3 and Glacier Storage
+III. **EC2 & EBS**
+IV. VPC (network)
+V. Elastic Load Balancing, CloudWatch, AutoScaling
+VI. AWS Identity/IAM
+VII. Database
+VIII.SWS, SWF, SNS
+IX. DNS, Route 53
+X. ElastiCache
+XI. Security
+XII. Risk & Compliance
+XIII. Architecture Best Practices
+
 In the last post, I gave a general overview of AWS services, and a quick summary of the S3 object storage services. Next, we are going to jump into Elastic Compute Cloud (EC2) and Elastic Block Store (EBS). These two provide the basic elements of compute and block-level storage to run your workloads.
 
 ## EC2 

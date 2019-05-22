@@ -4,9 +4,6 @@ title: Posting My First Tutorial Around AWS MERN Deployment
 link: https://medium.com/@davideliason/spinning-up-mern-app-on-ec2-with-vpc-5c3bcbede4a6
 date: 2018-11-07 12:02:03
 category:
-- backend
-- frontend
-- deployment
 - AWS_Architecture
 tags:
 - Express

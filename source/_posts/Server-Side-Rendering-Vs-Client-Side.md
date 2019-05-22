@@ -2,7 +2,6 @@
 title: Server-Side Rendering Vs Client-Side
 date: 2018-09-29 12:03:27 -0700
 category:
-- frontend
 - backend
 tags:
 - Express

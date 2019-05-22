@@ -3,7 +3,6 @@ title: Hosting a Static Site on Heroku
 date:  2018-06-25 17:03:27 -0700
 category:
 - deployment
-- frontend
 tags: Cloud Deployment
 ---
 

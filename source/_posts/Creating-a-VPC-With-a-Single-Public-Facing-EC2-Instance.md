@@ -2,7 +2,6 @@
 title: Creating a VPC With a Single Public-Facing EC2 Instance
 date: 2018-08-01 17:03:27 -0700
 category:
-- AWS_Architecture
 - backend
 tags: AWS Resources
 ---

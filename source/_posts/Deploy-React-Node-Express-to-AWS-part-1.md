@@ -3,8 +3,6 @@ title: Deploy React + Node/Express to AWS part 1
 date: 2018-09-10 12:03:27 -0700
 category:
 - deployment
-- backend
-- frontend
 tags: 
 - Node.js
 - React

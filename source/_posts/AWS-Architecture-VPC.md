@@ -15,7 +15,7 @@ IV. **VPC** (network)
 V. Elastic Load Balancing, CloudWatch, AutoScaling
 VI. AWS Identity/IAM
 VII. Database
-VIII.SWS, SWF, SNS
+VIII.SQS, SWF, SNS
 IX. DNS, Route 53
 X. ElastiCache
 XI. Security
